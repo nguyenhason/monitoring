@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff5b2e;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    background: #fffaf5;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sora", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.btn {
+    --height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 130px;
+    height: var(--height);
+    line-height: var(--height);
+    border: 2px solid rgb(0, 9, 88, 0.7);
+    border-radius: 99px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #0f1978;
+    background-color: #fffaf5;
+    margin-left: 10px;
+}
+.btn:hover {
+    background-color: #f4d7ba;
+}
+.header {
+    padding: 26px 0;
+}
+
+.header__inner {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 0;
+}
+.logo {
+    padding: 0 25px 0 10px;
+}
+
+.desc h1 {
+    font-size: 200%;
+    font-weight: 600;
+    color: #0181a5;
+    text-shadow: 9px 4px 10px rgba(0, 0, 0, 0.32);
+}
+
+h2 {
+    color: #0181a5;
+    font-weight: 600;
+    text-shadow: 9px 4px 8px rgba(0, 0, 0, 0.32);
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.dashboard {
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    height: 1600px;
+    top: 0;
+    left: 0;
+}
+.hide {
+    display: flex;
+    /* position: absolute; */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 12%;
+    background: rgb(237, 98, 60);
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 80px;
+    border-radius: 0 10px 10px 5px;
+    overflow: hidden;
+}
+.hide__title {
+    font-size: 170%;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: 600;
+    color: #fffaf5;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+img.aaci {
+    height: 50px;
+    width: auto;
+    padding-left: 5px;
+}
+/* footer */
